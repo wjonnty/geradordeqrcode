@@ -1,0 +1,23 @@
+
+.footer{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding: 33px 0;
+    pointer-events:none;
+    opacity:0;
+}
+
+
+.footer .img{
+    width: 220px;
+    height: auto;
+
+}
+
+.footer{
+    opacity: 1;
+    pointer-events: auto;
+    transition: opacity .5s ease;
+
+}
